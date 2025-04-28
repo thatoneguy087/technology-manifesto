@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "W95";
+  src: url("./assets/w95fa.woff2"),
+    url("./assets/w95fa.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "W95", serif;
+  font-size: 24px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  text-align: center;
+  width: 512px;
+  height: 1024px;
+  margin: 0 auto;
+  padding-top: 8px;
+  /* background-color: red; */
+}
+
+.text {
+  padding: 8px 16px;
+  width: 512px;
+  height: 512px;
+  /* background-color: blue; */
+  text-align: left;
+}
+
+.paper {
+  /* background-color: green; */
+  border: 2px solid black;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: black;
+}
+img {
+  width: 64px;
+  height: auto;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  image-rendering: -moz-crisp-edges; /* Firefox */
+  image-rendering: -o-crisp-edges;   /* Opera */
+  image-rendering: -webkit-optimize-contrast; /* Old Webkit */
+}
+
+.files {
+  margin: 24px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+#close {
+  cursor: pointer;
+  text-align: right;
+  padding: 4px;
+}
+
+#close:hover {
+  text-decoration: underline;
+}
